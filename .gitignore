@@ -9,10 +9,6 @@ build/
 temp/
 dist/
 
-.env
-.env.*
-!.env.example
-
 dump.rdb
 *.log
 npm-debug.*
