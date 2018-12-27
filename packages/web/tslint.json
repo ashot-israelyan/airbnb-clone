@@ -1,0 +1,16 @@
+{
+  "extends": ["../../tslint.json", "tslint-react"],
+  "linterOptions": {
+    "exclude": [
+      "config/**/*.js",
+      "node_modules/**/*.ts"
+    ]
+  },
+  "rules": {
+    "jsx-no-string-ref": false,
+    "jsx-key": false,
+    "jsx-boolean-value": false,
+    "jsx-no-multiline-js": false,
+    "jsx-alignment": false
+  }
+}
